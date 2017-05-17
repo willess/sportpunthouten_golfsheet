@@ -1,0 +1,137 @@
+
+html{
+	/*height:100%;*/
+}
+
+body {
+	font-family:'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	/*background: linear-gradient(0deg, #408AA0, white 25%) no-repeat;*/
+}
+
+td.number {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 50px;
+	white-space: nowrap;
+}
+
+td.number.nan {
+	font-weight: normal;
+	color: #AAA;
+}
+
+th.number {
+	text-align: right;
+}
+
+td.boolean {
+	text-align: center;
+}
+
+th.boolean {
+	text-align: center;
+}
+
+
+h1 { font-size: 15px; }
+
+a {
+	/*color: #548dc4;*/
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table.grid {
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 1000px;
+}
+
+table.grid td, table.grid th {
+	padding: 20px;
+	border: 2px solid black;
+	/*max-width: 200px;*/
+	text-align: center;
+}
+
+table.grid th {
+	/*background: #E5E5E5;*/
+	/*text-align: left;*/
+}
+
+table.grid td {
+	font-size: 20px;
+}
+
+table.grid td input {
+	width: 200px;
+	/*font-size: 20px;*/
+	padding: 20px;
+	margin-left: -20px ;
+	/*background: #E5E5E5;*/
+	/*text-align: left;*/
+}
+
+table.grid td input:focus {
+	border: 4px solid #25d1f9;
+	font-size: 20px;
+}
+
+
+table.grid td input[type="text"] {
+	font-size: 1em;
+	color: black;
+	/*background: #E5E5E5;*/
+	/*text-align: left;*/
+}
+
+
+
+input.invalid {
+	background: red;
+	color: #FDFDFD;
+}
+
+
+
+table.grid tr th.firstColumn  {
+	padding: 20px;
+	border: 2px solid black;
+	text-align: center;
+	/*position: fixed;*/
+}
+
+.rowWhite {
+	background-color: whitesmoke;
+	border: 0px solid black;
+}
+
+.rowGrey {
+	background-color: #c6c6c6;
+}
+
+
+table.grid tr.firstRow th {
+	background-color: #246f83;
+	font-size: large;
+	color: whitesmoke;
+}
+
+table.grid tr.secondRow th {
+	background-color: #2DA0BA;
+	font-size: medium;
+	color: black;
+}
+
+table.grid tr.thirdRow th {
+	background-color: #25d1f9;
+	font-size: medium;
+	color: black;
+}
