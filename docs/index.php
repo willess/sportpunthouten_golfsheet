@@ -81,16 +81,16 @@
             </tr>
             <tr id="R1" class="rowWhite">
                 <th class="firstColumn">1.</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td id="test" onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
+                <td onclick="clickCounter()"></td>
             </tr>
             <tr id="R2" class="rowGrey">
                 <th class="firstColumn">2.</th>
@@ -160,6 +160,18 @@
         </table>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+<script type="text/javascript">
+
+    function clickCounter(e) {
+
+        console.log("test");
+    }
+
+</script>
 
 </body>
 
